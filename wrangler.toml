@@ -1,9 +1,9 @@
-name = "dnsx"
+name = "doh-cache"
 main = "src/index.ts"
 compatibility_date = "2022-05-12"
 usage_model = "bundled"
 
-route = "https://firefox.dns.nextdns.io"
+route = "https://dns.nextdns.io"
 
 [vars]
-DOH_ENDPOINT = "firefox.dns.nextdns.io/"
+DOH_ENDPOINT = "dns.nextdns.io/82b849"
